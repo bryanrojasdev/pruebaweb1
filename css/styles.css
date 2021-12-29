@@ -81,7 +81,7 @@ section.section-info{
     position: relative;
 }
 #section2 .image1{
-   background-image: url(/res/img1.jpg);
+   background-image: url(../res/img1.jpg);
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -95,7 +95,7 @@ section.section-info{
     margin-left: 16px;
 }
 #section3 .image2{
-    background-image: url(/res/img2.jpg);
+    background-image: url(../res/img2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
