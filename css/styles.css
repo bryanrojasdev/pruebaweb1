@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f3f3;
+}
+
+.full-menu{
+    width: 100%;
+    height: 100vh;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.full-menu ul{
+    list-style: none;
+    
+}
+.full-menu ul li{
+    margin: 8px;
+}
+.full-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000000;
+}
+header navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #121212b9;
+    padding: 32px;
+}
+navbar ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+navbar ul {
+list-style: none;
+}
+navbar ul li a{
+text-decoration: none;
+margin: 6px;
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section.section-info{
+    width: 100%;
+    height: 100vh;
+}
+#section1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#section2,#section3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    position: relative;
+}
+#section2 .image1{
+   background-image: url(/res/img1.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+.content-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 16px;
+}
+#section3 .image2{
+    background-image: url(/res/img2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ }
+ #section4,#section5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;flex-direction: column;
+ }
+ #section6{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     
+ }
+ #section6 form{
+     align-self: center;
+     background-color: white;
+     border-radius: 16px;
+     height: auto;
+     display: inline-block;
+     display: flex;
+     flex-direction: column;
+     padding: 16px;
+ }
+ form input[type="text"], form input[type="email"], form textarea{
+    height: 32px;
+   width: 300px;
+    border: solid 1px gray;
+    border-radius: 8px;
+    margin: 16px;
+ }
